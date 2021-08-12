@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'www.wenchezhao.com'
 languageCode = 'en-us'
 title = "WenChe"
 theme = "hermit"
@@ -62,8 +62,12 @@ tag = "tags"
     # Check https://github.com/Track3/hermit#social-icons for more info.
 
     [[params.social]]
+    name = "qq"
+    [[params.social]]
     name = "github"
     url = "https://github.com/wenchezhao/"
+    [[params.social]]
+    name = "email"
 
 [menu]
 
@@ -80,12 +84,12 @@ tag = "tags"
     [[menu.main]]
         name = "关于"
         url = "about/"
-        weight = 20
+        weight = 10
 
     [[menu.nav]]
         name = "文章"
         url = "posts/"
-        weight = 10
+        weight = 11
 
     [[menu.nav]]
         name = "标签"
